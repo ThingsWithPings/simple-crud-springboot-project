@@ -58,7 +58,7 @@ You can test all the routes of the API using postman. Here I have include all th
   localhost:8883/employee/save
 ```
 ####  Request
-![](https://github.com/KDVC/images/blob/master/Capture4.PNG)
+![](https://github.com/KDVC/images/blob/master/Capture6.PNG)
 
 
 
