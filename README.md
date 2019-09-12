@@ -32,10 +32,18 @@ This API will give delete the employee, that we send the employee id in the url.
 ### localhost:8883/employee/update
 This API will update the details of an employee. (update the employee table) 
 
+##  Let’s test the API 
+
+###  Import project to IDE 
+First you must clone the project from the GitHub repository and then open the project using IntelliJ as below. 
+*  File -> Open -> select your project 
+###  Create the Database 
+Create a database as _**employee**_ in your MySQL workbench. You can create your own database. it doesn’t have to be the name as _**employee**_ in my case I used the database as _**employee**_. You can create your oen database.  If you are creating your own database, then you must change the database name in property file to the name of your changed database. You can find it in below image, the database name is highlighted.
+
+![](https://github.com/KDVC/images/blob/master/Capture4.PNG)
 
 
 
 
-![Image of Yaktocat](https://github.com/KDVC/images/blob/master/10.PNG)
 
 
