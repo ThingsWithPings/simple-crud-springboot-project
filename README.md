@@ -7,9 +7,9 @@ This is a sample spring boot project those who are seeking to learn about how to
 This project has implemented all the crud operations in a simple way. You can learn how to do crud operations in spring boot. 
 
 ##  Technologies Used 
-Spring Boot 
-MySQL 
-Hibernate 
+*  Spring Boot 
+*  MySQL 
+*  Hibernate 
 
 
 
