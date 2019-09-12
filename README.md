@@ -46,9 +46,19 @@ And, database _**username**_ and _**password**_ must change according to your My
 ![](https://github.com/KDVC/images/blob/master/Capture5.PNG)
 
 ```diff
-- NOTE: - 
+- NOTE:- 
+You only need to create the database; you must not create the tables. 
+when you run the application Hibernate will create the tables in the employee database for you.
 ```
+Then Build and Run your project.    
+You can test all the routes of the API using postman. Here I have include all the screen shots of API calls using postman.    
 
+```diff
+! POST 
+  localhost:8883/employee/save
+```
+####  Request
+![](https://github.com/KDVC/images/blob/master/Capture4.PNG)
 
 
 
