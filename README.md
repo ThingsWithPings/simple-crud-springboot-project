@@ -1,6 +1,19 @@
 # simple-crud-springboot-project
-This is a simple project that describe how to do CRUD operation in a springboot application
+##  Download the API document  using below link
+https://github.com/KDVC/api-documents/tree/master/simple-crud-springboot-project
 
-when you are cloning the project you will download the API document as well, remove that file when you are running the project
+##  Introduction 
+This is a sample spring boot project those who are seeking to learn about how to create a simple spring boot crud application. 
+This project has implemented all the crud operations in a simple way. You can learn how to do crud operations in spring boot. 
 
-#  Read the API document
+##  Technologies Used 
+Spring Boot 
+MySQL 
+Hibernate 
+
+
+
+![Image of Yaktocat](https://github.com/KDVC/images/blob/master/10.PNG)
+
+
+
