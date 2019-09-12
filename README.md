@@ -42,6 +42,13 @@ Create a database as _**employee**_ in your MySQL workbench. You can create your
 
 ![](https://github.com/KDVC/images/blob/master/Capture4.PNG)
 
+And, database _**username**_ and _**password**_ must change according to your MySQL configuration.
+![](https://github.com/KDVC/images/blob/master/Capture5.PNG)
+
+```diff
+- NOTE: - 
+```
+
 
 
 
