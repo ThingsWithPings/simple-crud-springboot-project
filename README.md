@@ -23,10 +23,10 @@ This API will save an employee in employee database. (a record will insert to em
 ### localhost:8883/employee/getall
 This API will give details of all the employees as a List. 
 
-### localhost:8883/employee/getone/{employeeI
+### localhost:8883/employee/getone/{employeeId}
 This API will give details of the employee, that we send the employee id in the url. 
 
-### localhost:8883/employee/delete/{employeeId
+### localhost:8883/employee/delete/{employeeId}
 This API will give delete the employee, that we send the employee id in the url.(delete the record of that employee from employee table) 
 
 ### localhost:8883/employee/update
@@ -57,10 +57,57 @@ You can test all the routes of the API using postman. Here I have include all th
 ! POST 
   localhost:8883/employee/save
 ```
-####  Request
+#### Request
 ![](https://github.com/KDVC/images/blob/master/Capture6.PNG)
 
+#### Response
+![](https://github.com/KDVC/images/blob/master/Capture7.PNG)
 
+#### Database
+![](https://github.com/KDVC/images/blob/master/Capture8.PNG)
 
+```diff
++ GET  
+  localhost:8883/employee/getall
+```
+#### Database
+![](https://github.com/KDVC/images/blob/master/Capture9.PNG)
 
+#### Response
+![](https://github.com/KDVC/images/blob/master/10.PNG)
 
+```diff
++ GET  
+  localhost:8883/employee/getone/2
+```
+#### Database
+![](https://github.com/KDVC/images/blob/master/10.PNG)
+
+#### Response
+![](https://github.com/KDVC/images/blob/master/11.PNG)
+
+```diff
+- DELETE  
+  localhost:8883/employee/delete/2
+```
+#### Database(Before delete the record which has the employee Id is 2)
+![](https://github.com/KDVC/images/blob/master/10.PNG)
+
+#### Database (After delete the record which has the employee Id as 2) 
+![](https://github.com/KDVC/images/blob/master/12.PNG)
+
+```diff
+# PUT  
+  localhost:8883/employee/update
+```
+#### Database (Before update the record which has the id as 1)
+![](https://github.com/KDVC/images/blob/master/12.PNG)
+
+#### Request
+![](https://github.com/KDVC/images/blob/master/13.PNG)
+
+#### Response
+![](https://github.com/KDVC/images/blob/master/14.PNG)
+
+#### Database (After update the record which has the id as 1)
+![](https://github.com/KDVC/images/blob/master/15.PNG)
