@@ -81,7 +81,7 @@ You can test all the routes of the API using postman. Here I have include all th
   localhost:8883/employee/getone/2
 ```
 #### Database
-![](https://github.com/KDVC/images/blob/master/9.PNG)
+![](https://github.com/KDVC/images/blob/master/Capture9.PNG)
 
 #### Response
 ![](https://github.com/KDVC/images/blob/master/11.PNG)
@@ -90,10 +90,10 @@ You can test all the routes of the API using postman. Here I have include all th
 - DELETE  
   localhost:8883/employee/delete/2
 ```
-#### Database(Before delete the record which has the employee Id is 2)
-![](https://github.com/KDVC/images/blob/master/9.PNG)
+#### Database(Before delete the record which has the employee Id is 2) 
+![](https://github.com/KDVC/images/blob/master/Capture9.PNG)
 
-#### Database (After delete the record which has the employee Id as 2) 
+#### Database(After delete the record which has the employee Id as 2) 
 ![](https://github.com/KDVC/images/blob/master/12.PNG)
 
 ```diff
